@@ -1,0 +1,29 @@
+# Terraform-specific files
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfstate.lock.info
+.terraform.lock.hcl
+
+# State locking files
+*.tfstate.lock.info
+
+# Terraform plan files
+*.tfplan
+
+# Temporary files
+*.tfstate.tmp
+
+# Backend configuration files
+*.tfvars
+*.tfstate.d/
+
+# Provider-specific files
+.terraform/modules/*/provider.tf
+
+# Other temporary files
+*.swo
+*.tf
+
+# Visual Studio Code settings
+.vscode/
